@@ -11,5 +11,5 @@ Both sheets containt two series:
 - **Series**:	Surprise	High-frequency carbon policy surprises
 -	**Shock**:	Carbon policy shock, identified using the external instruments VAR using the surprise series as an instrument for the energy price residual
 		
-Contact	If you have any questions, please contact me at	dkaenzig@northwestern.edu	
+If you have any questions, please contact me at	dkaenzig@northwestern.edu	
 
