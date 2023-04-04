@@ -6,7 +6,7 @@ The excel file contains two sheets:
 1. **Baseline**:	Carbon policy surprises measured as euro change in carbon price, relative to prevailing wholesale electricity price
 2.	**Pct**:	Carbon policy surprises measured as percentage change in carbon price
 		
-Both sheets containt two series:
+Both sheets contain two series:
 
 - **Series**:	Surprise	High-frequency carbon policy surprises
 -	**Shock**:	Carbon policy shock, identified using the external instruments VAR using the surprise series as an instrument for the energy price residual
