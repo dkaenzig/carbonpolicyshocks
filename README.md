@@ -33,6 +33,15 @@ The file contains the following sheets:
 
 Carbon policy shocks based on an earlier version of the paper (April 2023) are available in the [legacy](legacy) folder.
 
+#### VAR Dataset
+
+The repository also includes the dataset used in the **baseline VAR** specification:
+
+`dataCPS.xlsx`
+
+This file contains data on the HICP energy, GHG emissions, HICP headline, industrial production, the two-year rate, the unemployment rate, the EUROSTOXX50 and the Brent crude price. For more details, see Appendix A.2.
+
+
 ## License
 
 The data are licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
