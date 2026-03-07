@@ -1,24 +1,61 @@
-# Carbon policy shocks
-Repository hosing the carbon policy surprises and estimated carbon policy shocks from Känzig (2025).
 
-The surprises and shocks are stored in the [carbonPolicyShocks.xlsx](carbonPolicyShocks.xlsx) file. The file contains the following sheets:
+# Carbon Policy Shocks
 
-## Daily
+This repository hosts the carbon policy surprises and estimated carbon policy shocks from:
+
+Känzig, Diego R. (2026).  
+*The Unequal Consequences of Carbon Pricing.*  
+Conditionally accepted at American Economic Review.  
+Ungated version: https://dkaenzig.github.io/diegokaenzig.com/Papers/kaenzig_jmp_unequal_consequences_carbon_pricing.pdf
+
+## Data
+
+The surprises and shocks are stored in the file  
+
+[carbonPolicyShocks.xlsx](carbonPolicyShocks.xlsx)
+
+The file contains the following sheets:
+
+#### Daily
 
 | Variable | Description |
 |----------|-------------|
-| Surprise | Daily carbon policy surprises measured as euro change in carbon price, relative to prevailing wholesale electricity price, purged from macro, financial, and oil market news. |
+| Surprise | Daily carbon policy surprises measured as the euro change in the carbon price relative to the prevailing wholesale electricity price, purged of macroeconomic, financial, and oil market news. |
 
-## Monthly
+#### Monthly
 
 | Variable | Description |
 |----------|-------------|
-| Surprise | Monthly carbon policy surprises, aggregated by summing over daily surprises. |
-| Shock    | Carbon policy shock, identified using the external instruments VAR using the surprise series as an instrument for the energy price residual. |
+| Surprise | Monthly carbon policy surprises obtained by summing daily surprises within each month. |
+| Shock | Carbon policy shock identified using an external instruments VAR, where the surprise series serves as an instrument for the energy price residual. |
 
-## Notes
+#### Notes
 
-The original carbon policy shocks based on the previous version of the paper (April, 2023) can be found in the [legacy](legacy) folder.
+Carbon policy shocks based on an earlier version of the paper (April 2023) are available in the [legacy](legacy) folder.
+
+## License
+
+The data are licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+You are free to share and adapt the data provided appropriate credit is given. If you use these data, please cite the following paper:
+
+Känzig, Diego R. (2026).  
+*The Unequal Consequences of Carbon Pricing.*  
+[NBER WP 31221](https://www.nber.org/papers/w31221)
+
+```bibtex
+@techreport{kanzig2023unequal,
+  title       = {The Unequal Economic Consequences of Carbon Pricing},
+  author      = {K{\"a}nzig, Diego R.},
+  institution = {National Bureau of Economic Research},
+  type        = {NBER Working Paper},
+  number      = {31221},
+  year        = {2023},
+  url         = {https://www.nber.org/papers/w31221}
+}
+```
+
+## Contact
 
 If you have any questions, please contact me at [dkaenzig@northwestern.edu](mailto:dkaenzig@northwestern.edu).
 
