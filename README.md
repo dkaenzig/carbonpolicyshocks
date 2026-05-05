@@ -59,7 +59,7 @@ Känzig, Diego R. (2026).
   institution = {National Bureau of Economic Research},
   type        = {NBER Working Paper},
   number      = {31221},
-  year        = {2023},
+  year        = {2026},
   url         = {https://www.nber.org/papers/w31221}
 }
 ```
